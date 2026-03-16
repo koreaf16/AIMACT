@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(grep -E \"\\\\.\\(env|md\\)$\")",
+      "Bash(grep -r EventSource /c/AIMACT/web/src --include=*.ts --include=*.tsx)"
+    ]
+  }
+}

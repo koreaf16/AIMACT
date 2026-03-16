@@ -1,0 +1,10 @@
+{
+  "name": "aimact",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:web": "cd web && npm run dev",
+    "dev": "npx concurrently -k -c \"blue,green\" -n \"server,web\" \"npm run dev:server\" \"npm run dev:web\""
+  }
+}
